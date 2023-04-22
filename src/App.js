@@ -7,7 +7,7 @@ import Contact from './components/ContactUs/Contact';
 
 function App() {
   return (
-    <div>
+    <>
       <Routes>
          <Route path='/' element={<Layout/>}>
            <Route exact path='/' element={<Home/>}/>
@@ -15,7 +15,7 @@ function App() {
            <Route exact path='contact' element={<Contact/>}/>
          </Route>
       </Routes>
-    </div>
+    </>
   );
 }
 
