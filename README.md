@@ -4,6 +4,42 @@ Extension
 
 YML -> Red Hat 
 
+
+## Docker Build
+
+when we will not provide path or . then output showing requires exactly 1 argument.
+
+Command :  `docker build -f Sarvesh.test1 -t sarveshdockerapp`
+
+See 'docker build --help'
+
+""docker build" requires exactly 1 argument.
+
+
+Build an image from a Dockerfile
+
+------------------------------------------
+
+## Can we rename the Dockerfile?
+
+Ans: Yes we can rename the Dockerfile and while calling through command follow below centext
+
+`docker build -f Sarvesh.test1 -t sarveshdockerapp`
+
+
+-----------------------------------------------------
+
+
+### Can we create multiple Dockerfile?
+
+Ans: Yes we cna create multiple Dockerfile and naming convention used like Dockerfile.dev, Dockerfile.test, Dockerfile.prod
+
+
+-d, --detach            Run container in background and print container ID
+-p, --publish list      Publish a container's port(s) to the host
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
